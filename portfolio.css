@@ -1,0 +1,205 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin-left: 30px;
+}
+.btn{
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 30px;
+    animation-name: link;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes link{
+    20%   {background-color: red;}
+  40%  {background-color: yellow;}
+  60%  {background-color: blue;}
+  80% {background-color: green;}
+  80% {background-color: white;}
+}
+.Profile{
+    display: flex;
+}
+.Profile1{
+    margin: 50px 200px;
+}
+.Profile1 H1{
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+}
+.Profile1 p{
+    text-align: justify;
+}
+.Profile1 i{
+    margin-left: 20px;
+    color: yellow;
+}
+.photo img{
+    height: 320px;
+    width:320px;
+    padding: 20px;
+    border-radius: 200px;
+    margin: 50px;
+}
+.Quality{
+    display: flex;
+    background-color: rgb(75, 75, 75);
+}
+.Quality1{
+    margin-left: 200px;
+}
+.Quality1 img{
+    text-align: center;
+}
+.Quality1 h5{
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+
+    text-align: center;
+}
+.Quality1 p{
+    text-align: center;
+}
+.Quality1 i{
+    margin-left: 80px;
+   padding: 30px ;
+}
+.About{
+    display: flex;
+    margin-left: 150px;
+}
+.About1{
+    margin-left: 100px;
+}
+.About2{
+    margin: 80px 100px;
+}
+.About2 .p1{
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+}
+.About1 img{ 
+    height: 250px;
+    width: 250px;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+.skill{
+    background-color:  rgb(75, 75, 75);
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+.skill h1{
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+}
+.focus{
+    display: flex;
+    align-items: center;
+}
+.focus1{
+    margin-left: 350px;
+}
+.focus1 h5{
+    color: yellow;
+    text-shadow: 2px 2px blueviolet;
+    text-decoration: underline;
+    text-decoration-line: black;
+}
+.Language{
+    margin-left: 200px;
+}
+.Language1 span{
+    display: inline-block;
+    width: 100px;
+
+    background-color: black;  
+}
+
+.bar{
+    display: inline-block;
+    width: 350px;
+    background-color: rgb(32, 31, 31);
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    margin-left: -2px;
+}
+.fill{
+    height: 100%;
+    background-color: rgb(59, 58, 58);
+}
+.html{width:90%;}
+.css{width:85%;}
+.bootstrap{width:90%;}
+.java{width:80%;}
+.python{width:90%;}
+.sql{width:95%;}
+.github{width:85%;}
+
+.Qualification{
+    background-color: yellow;
+    margin-left: 320px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    border-bottom: solid 10px orange;
+    transition: background-color border-bottom 2s;
+}
+.Qualification:hover{
+    background-color: greenyellow;
+    border-bottom: solid 10px blue;
+}
+
+.experience{
+    background-color: yellow;
+    margin-left: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    border-bottom: solid 10px orange;
+    border-bottom: solid 10px orange;
+    transition: background-color border-bottom 2s;
+    cursor: pointer;
+}
+.experience:hover{
+    background-color: greenyellow;
+    border-bottom: solid 10px blue;
+    
+}
+.d-flex{
+    margin: 50px;
+}
+li{
+    color: gray;
+}
+.Contact{
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+}
+.contact1{
+    text-align: center;
+    align-items: center;
+}
+.contact1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px burlywood;
+}
+.details{
+    display: flex;
+}
+i{
+    margin-left: 20px;
+}
+.details span{
+    margin-left: 400px;
+}
